@@ -1,0 +1,8 @@
+// check tables
+.table
+
+// check header for a table
+select * from sqlite_master where type="table" and name = "table_name";
+
+// select all items in a table
+select * from table_name;
